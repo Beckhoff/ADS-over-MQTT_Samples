@@ -1,0 +1,8 @@
+user EngineeringStation
+topic readwrite VirtualAmsNetwork1/3.120.15.8.1.1/#
+topic read VirtualAmsNetwork1/+/info
+topic readwrite VirtualAmsNetwork1/+/ams/#
+user CX-12345
+topic readwrite VirtualAmsNetwork1/18.153.78.19.1.1/#
+topic read VirtualAmsNetwork1/+/info
+topic readwrite VirtualAmsNetwork1/+/ams/#

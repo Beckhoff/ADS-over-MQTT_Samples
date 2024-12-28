@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Defines three ADS devices. EngineeringStation has access to CX-12345 and CX-56789 but not vice versa -->
+<TcMqttAclConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\TwinCAT\3.1\Config\Modules\TcMqttAclConfig.xsd">
+    <Ams>
+        <Topic>VirtualAmsNetwork1</Topic>
+        <User>
+            <Name>EngineeringStation</Name>
+        </User>
+        <User>
+            <Name>CX-12345</Name>
+            <Access>EngineeringStation</Access>
+        </User>
+        <User>
+            <Name>CX-56789</Name>
+            <Access>EngineeringStation</Access>
+        </User>
+    </Ams>
+</TcMqttAclConfig>
