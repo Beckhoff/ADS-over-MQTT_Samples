@@ -13,3 +13,4 @@ The following configuration files can be found in this folder:
 | [AdsOverMqtt_secureTlsPsk2.xml](AdsOverMqtt_secureTlsPsk2.xml) | Demonstrates how to set up ADS-over-MQTT with TLS-PSK and password |
 | [AdsOverMqtt_tcMqttPluginACL.xml](AdsOverMqtt_tcMqttPluginACL.xml) | Configuration example for TcMqttPlugin Access Control List file |
 | [AdsOverMqtt_unidirectional.xml](AdsOverMqtt_unidirectional.xml) | Demonstrates how to use the Unidirectional attribute |
+| [AdsOverMqtt_username.xml](AdsOverMqtt_username.xml) | Demonstrates how to set up ADS-over-MQTT with username and password |
