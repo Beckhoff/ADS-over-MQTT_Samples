@@ -4,8 +4,8 @@
         <Mqtt> 
             <Address Port="1883">mybroker.someurl.com</Address> 
             <Topic>VirtualAmsNetwork1</Topic>
-			<User>YourUser</User>
-			<Pwd>YourPwd</Pwd>
+            <User>YourUser</User>
+            <Pwd>YourPwd</Pwd>
         </Mqtt> 
     </RemoteConnections> 
 </TcConfig>
